@@ -13,6 +13,9 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire project directory to the container
 COPY . .
 
+# Salin file model.h5 ke dalam direktori aplikasi
+COPY model.h5 /app/model.h5
+
 # Expose the port the app runs on
 EXPOSE 5000
 
