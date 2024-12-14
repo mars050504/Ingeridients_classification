@@ -1,0 +1,1005 @@
+{
+	"info": {
+		"_postman_id": "94fba2a2-d766-44bb-9e81-81b6d89ebc03",
+		"name": "Ingredients Classification",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22605674"
+	},
+	"item": [
+		{
+			"name": "Bottle Gourd Prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "input_image",
+							"type": "file",
+							"src": "postman-cloud:///1efb8bf4-c075-4cf0-8130-c2c8bbfcfa10"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"predict"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success Image 1185",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8bf4-c075-4cf0-8130-c2c8bbfcfa10"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:50:54 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1192"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 tomatoes\",\n                \"1 tablespoon curry powder\",\n                \"1 teaspoon cumin seeds\",\n                \"1 tablespoon olive oil\",\n                \"Salt to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Heat olive oil in a pan and sauté cumin seeds and chopped onion.\",\n                \"Add tomatoes, curry powder, and bottle gourd.\",\n                \"Simmer for 15-20 minutes, season with salt, and serve.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Curry\"\n        },\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 garlic cloves\",\n                \"1 teaspoon ginger\",\n                \"2 cups vegetable broth\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Sauté onion, garlic, and ginger in olive oil.\",\n                \"Add bottle gourd and vegetable broth.\",\n                \"Simmer for 15 minutes, blend until smooth, and season with salt and pepper.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Soup\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Success Image 1197",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c5c-63f9-4ae0-8b8d-f6acca899562"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:51:24 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1192"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 tomatoes\",\n                \"1 tablespoon curry powder\",\n                \"1 teaspoon cumin seeds\",\n                \"1 tablespoon olive oil\",\n                \"Salt to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Heat olive oil in a pan and sauté cumin seeds and chopped onion.\",\n                \"Add tomatoes, curry powder, and bottle gourd.\",\n                \"Simmer for 15-20 minutes, season with salt, and serve.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Curry\"\n        },\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 garlic cloves\",\n                \"1 teaspoon ginger\",\n                \"2 cups vegetable broth\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Sauté onion, garlic, and ginger in olive oil.\",\n                \"Add bottle gourd and vegetable broth.\",\n                \"Simmer for 15 minutes, blend until smooth, and season with salt and pepper.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Soup\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Wrong Predictions Image 1198",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c5d-f1be-44b0-83cf-b55407d25426"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:51:44 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "918"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"1 ripe papaya\",\n                \"1/2 cup coconut milk\",\n                \"1 tablespoon honey\",\n                \"Ice cubes\"\n            ],\n            \"instructions\": [\n                \"Peel and chop the papaya into chunks.\",\n                \"Blend papaya with coconut milk, honey, and ice cubes.\",\n                \"Serve chilled in glasses.\"\n            ],\n            \"recipe_name\": \"Papaya Smoothie\"\n        },\n        {\n            \"ingredients\": [\n                \"1 small papaya\",\n                \"1/2 cucumber\",\n                \"1 tablespoon lime juice\",\n                \"1 tablespoon fish sauce\",\n                \"Fresh cilantro\"\n            ],\n            \"instructions\": [\n                \"Peel and shred the papaya.\",\n                \"Chop cucumber into thin slices.\",\n                \"Toss papaya and cucumber with lime juice and fish sauce.\",\n                \"Garnish with fresh cilantro and serve.\"\n            ],\n            \"recipe_name\": \"Papaya Salad\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Bitter Gourd Prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "input_image",
+							"type": "file",
+							"src": "postman-cloud:///1efb8c64-d257-42f0-b9af-d4270bde9f71"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"predict"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Wrong Prediction Image 1375",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c62-01e5-4970-82ff-1a440f61a002"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:52:08 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1791"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"2 cups kidney beans (or any type of beans)\",\n                \"1 tablespoon olive oil\",\n                \"1 onion, chopped\",\n                \"2 cloves garlic, minced\",\n                \"1 can diced tomatoes\",\n                \"1 tablespoon brown sugar\",\n                \"1 tablespoon molasses\",\n                \"1 tablespoon mustard\",\n                \"1 tablespoon Worcestershire sauce\",\n                \"1 teaspoon paprika\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Soak the beans overnight, then cook them until tender (about 1-2 hours).\",\n                \"Preheat the oven to 350°F (175°C).\",\n                \"Heat olive oil in a pan, sauté onions and garlic until soft.\",\n                \"Add diced tomatoes, brown sugar, molasses, mustard, Worcestershire sauce, paprika, and season with salt and pepper.\",\n                \"Mix in the cooked beans, transfer to a baking dish, and bake for 30-40 minutes.\"\n            ],\n            \"recipe_name\": \"Baked Beans\"\n        },\n        {\n            \"ingredients\": [\n                \"2 cups mixed beans (kidney beans, black beans, chickpeas)\",\n                \"1 cucumber, diced\",\n                \"1 bell pepper, diced\",\n                \"1 small red onion, diced\",\n                \"1 tablespoon olive oil\",\n                \"1 tablespoon lemon juice\",\n                \"1 teaspoon cumin\",\n                \"Salt and pepper to taste\",\n                \"Fresh cilantro for garnish\"\n            ],\n            \"instructions\": [\n                \"Rinse and drain the beans.\",\n                \"In a large bowl, mix the beans with cucumber, bell pepper, and red onion.\",\n                \"In a separate small bowl, whisk together olive oil, lemon juice, cumin, salt, and pepper.\",\n                \"Pour the dressing over the salad, toss gently, and garnish with fresh cilantro.\"\n            ],\n            \"recipe_name\": \"Bean Salad\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Success Image 1383",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c63-9e3a-43b0-81ef-986037e9e94b"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:53:25 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "990"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"2 bitter gourds\",\n                \"1 onion\",\n                \"1 teaspoon turmeric\",\n                \"1 teaspoon chili powder\",\n                \"1 tablespoon olive oil\",\n                \"Salt to taste\"\n            ],\n            \"instructions\": [\n                \"Slice bitter gourd and remove seeds.\",\n                \"Sauté onion in olive oil, then add bitter gourd.\",\n                \"Sprinkle turmeric, chili powder, and salt.\",\n                \"Stir-fry for 10-15 minutes and serve.\"\n            ],\n            \"recipe_name\": \"Bitter Gourd Stir Fry\"\n        },\n        {\n            \"ingredients\": [\n                \"2 bitter gourds\",\n                \"1 tablespoon olive oil\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Slice bitter gourd thinly and remove seeds.\",\n                \"Toss with olive oil, salt, and pepper.\",\n                \"Bake at 350°F (175°C) for 20-25 minutes until crispy.\"\n            ],\n            \"recipe_name\": \"Bitter Gourd Chips\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Success Image 1396",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c64-d257-42f0-b9af-d4270bde9f71"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:53:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "990"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"2 bitter gourds\",\n                \"1 onion\",\n                \"1 teaspoon turmeric\",\n                \"1 teaspoon chili powder\",\n                \"1 tablespoon olive oil\",\n                \"Salt to taste\"\n            ],\n            \"instructions\": [\n                \"Slice bitter gourd and remove seeds.\",\n                \"Sauté onion in olive oil, then add bitter gourd.\",\n                \"Sprinkle turmeric, chili powder, and salt.\",\n                \"Stir-fry for 10-15 minutes and serve.\"\n            ],\n            \"recipe_name\": \"Bitter Gourd Stir Fry\"\n        },\n        {\n            \"ingredients\": [\n                \"2 bitter gourds\",\n                \"1 tablespoon olive oil\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Slice bitter gourd thinly and remove seeds.\",\n                \"Toss with olive oil, salt, and pepper.\",\n                \"Bake at 350°F (175°C) for 20-25 minutes until crispy.\"\n            ],\n            \"recipe_name\": \"Bitter Gourd Chips\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Bean Prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "input_image",
+							"type": "file",
+							"src": "postman-cloud:///1efb8c6a-d404-4340-84c7-fba49eb816b7"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"predict"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success Image 0699",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c67-7119-40d0-9322-86e45754acc0"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:53:58 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1791"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"2 cups kidney beans (or any type of beans)\",\n                \"1 tablespoon olive oil\",\n                \"1 onion, chopped\",\n                \"2 cloves garlic, minced\",\n                \"1 can diced tomatoes\",\n                \"1 tablespoon brown sugar\",\n                \"1 tablespoon molasses\",\n                \"1 tablespoon mustard\",\n                \"1 tablespoon Worcestershire sauce\",\n                \"1 teaspoon paprika\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Soak the beans overnight, then cook them until tender (about 1-2 hours).\",\n                \"Preheat the oven to 350°F (175°C).\",\n                \"Heat olive oil in a pan, sauté onions and garlic until soft.\",\n                \"Add diced tomatoes, brown sugar, molasses, mustard, Worcestershire sauce, paprika, and season with salt and pepper.\",\n                \"Mix in the cooked beans, transfer to a baking dish, and bake for 30-40 minutes.\"\n            ],\n            \"recipe_name\": \"Baked Beans\"\n        },\n        {\n            \"ingredients\": [\n                \"2 cups mixed beans (kidney beans, black beans, chickpeas)\",\n                \"1 cucumber, diced\",\n                \"1 bell pepper, diced\",\n                \"1 small red onion, diced\",\n                \"1 tablespoon olive oil\",\n                \"1 tablespoon lemon juice\",\n                \"1 teaspoon cumin\",\n                \"Salt and pepper to taste\",\n                \"Fresh cilantro for garnish\"\n            ],\n            \"instructions\": [\n                \"Rinse and drain the beans.\",\n                \"In a large bowl, mix the beans with cucumber, bell pepper, and red onion.\",\n                \"In a separate small bowl, whisk together olive oil, lemon juice, cumin, salt, and pepper.\",\n                \"Pour the dressing over the salad, toss gently, and garnish with fresh cilantro.\"\n            ],\n            \"recipe_name\": \"Bean Salad\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Wrong Detection Image 0700",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c69-63ed-43f0-8580-ade095f705d7"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:54:09 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "518"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"1/2 head of cabbage\",\n                \"2 tablespoons soy sauce\",\n                \"1 teaspoon sesame oil\",\n                \"1 tablespoon olive oil\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Shred the cabbage.\",\n                \"Heat olive oil in a pan and sauté cabbage for 5-7 minutes.\",\n                \"Add soy sauce and sesame oil.\"\n            ],\n            \"recipe_name\": \"Cabbage Stir Fry\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Success Image 0797",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c6a-d404-4340-84c7-fba49eb816b7"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:54:22 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1791"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"2 cups kidney beans (or any type of beans)\",\n                \"1 tablespoon olive oil\",\n                \"1 onion, chopped\",\n                \"2 cloves garlic, minced\",\n                \"1 can diced tomatoes\",\n                \"1 tablespoon brown sugar\",\n                \"1 tablespoon molasses\",\n                \"1 tablespoon mustard\",\n                \"1 tablespoon Worcestershire sauce\",\n                \"1 teaspoon paprika\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Soak the beans overnight, then cook them until tender (about 1-2 hours).\",\n                \"Preheat the oven to 350°F (175°C).\",\n                \"Heat olive oil in a pan, sauté onions and garlic until soft.\",\n                \"Add diced tomatoes, brown sugar, molasses, mustard, Worcestershire sauce, paprika, and season with salt and pepper.\",\n                \"Mix in the cooked beans, transfer to a baking dish, and bake for 30-40 minutes.\"\n            ],\n            \"recipe_name\": \"Baked Beans\"\n        },\n        {\n            \"ingredients\": [\n                \"2 cups mixed beans (kidney beans, black beans, chickpeas)\",\n                \"1 cucumber, diced\",\n                \"1 bell pepper, diced\",\n                \"1 small red onion, diced\",\n                \"1 tablespoon olive oil\",\n                \"1 tablespoon lemon juice\",\n                \"1 teaspoon cumin\",\n                \"Salt and pepper to taste\",\n                \"Fresh cilantro for garnish\"\n            ],\n            \"instructions\": [\n                \"Rinse and drain the beans.\",\n                \"In a large bowl, mix the beans with cucumber, bell pepper, and red onion.\",\n                \"In a separate small bowl, whisk together olive oil, lemon juice, cumin, salt, and pepper.\",\n                \"Pour the dressing over the salad, toss gently, and garnish with fresh cilantro.\"\n            ],\n            \"recipe_name\": \"Bean Salad\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Carrot Prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "input_image",
+							"type": "file",
+							"src": "postman-cloud:///1efb8c75-34ef-41a0-abdc-fb8f383800ff"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"predict"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Success Image 1164",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c72-fd4c-4290-80ae-a106418462f0"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:54:38 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1010"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"4 carrots\",\n                \"1 onion\",\n                \"2 garlic cloves\",\n                \"2 cups vegetable broth\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop the carrots.\",\n                \"Sauté onion and garlic in a pot until soft.\",\n                \"Add carrots and vegetable broth, bring to a boil.\",\n                \"Simmer for 15-20 minutes, then blend until smooth.\",\n                \"Season with salt and pepper and serve.\"\n            ],\n            \"recipe_name\": \"Carrot Soup\"\n        },\n        {\n            \"ingredients\": [\n                \"2 carrots\",\n                \"1 tablespoon olive oil\",\n                \"1 teaspoon lemon juice\",\n                \"Salt and pepper to taste\",\n                \"Fresh parsley\"\n            ],\n            \"instructions\": [\n                \"Grate the carrots.\",\n                \"Toss with olive oil, lemon juice, salt, and pepper.\",\n                \"Garnish with fresh parsley and serve.\"\n            ],\n            \"recipe_name\": \"Carrot Salad\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Success Image 1190",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c74-346a-4280-a45a-cf61f0ab89d9"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:54:51 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1010"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"4 carrots\",\n                \"1 onion\",\n                \"2 garlic cloves\",\n                \"2 cups vegetable broth\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop the carrots.\",\n                \"Sauté onion and garlic in a pot until soft.\",\n                \"Add carrots and vegetable broth, bring to a boil.\",\n                \"Simmer for 15-20 minutes, then blend until smooth.\",\n                \"Season with salt and pepper and serve.\"\n            ],\n            \"recipe_name\": \"Carrot Soup\"\n        },\n        {\n            \"ingredients\": [\n                \"2 carrots\",\n                \"1 tablespoon olive oil\",\n                \"1 teaspoon lemon juice\",\n                \"Salt and pepper to taste\",\n                \"Fresh parsley\"\n            ],\n            \"instructions\": [\n                \"Grate the carrots.\",\n                \"Toss with olive oil, lemon juice, salt, and pepper.\",\n                \"Garnish with fresh parsley and serve.\"\n            ],\n            \"recipe_name\": \"Carrot Salad\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Success Image 1191",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c75-34ef-41a0-abdc-fb8f383800ff"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:55:05 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1010"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"4 carrots\",\n                \"1 onion\",\n                \"2 garlic cloves\",\n                \"2 cups vegetable broth\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop the carrots.\",\n                \"Sauté onion and garlic in a pot until soft.\",\n                \"Add carrots and vegetable broth, bring to a boil.\",\n                \"Simmer for 15-20 minutes, then blend until smooth.\",\n                \"Season with salt and pepper and serve.\"\n            ],\n            \"recipe_name\": \"Carrot Soup\"\n        },\n        {\n            \"ingredients\": [\n                \"2 carrots\",\n                \"1 tablespoon olive oil\",\n                \"1 teaspoon lemon juice\",\n                \"Salt and pepper to taste\",\n                \"Fresh parsley\"\n            ],\n            \"instructions\": [\n                \"Grate the carrots.\",\n                \"Toss with olive oil, lemon juice, salt, and pepper.\",\n                \"Garnish with fresh parsley and serve.\"\n            ],\n            \"recipe_name\": \"Carrot Salad\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Brinjal Prediction",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "input_image",
+							"type": "file",
+							"src": "postman-cloud:///1efb8c70-4f51-4cf0-be86-67027b9461e3"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5000/api/predict",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"api",
+						"predict"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Wrong Prediction Image 1160",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c6d-f967-4670-9499-b415c6923499"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:55:23 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1192"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 tomatoes\",\n                \"1 tablespoon curry powder\",\n                \"1 teaspoon cumin seeds\",\n                \"1 tablespoon olive oil\",\n                \"Salt to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Heat olive oil in a pan and sauté cumin seeds and chopped onion.\",\n                \"Add tomatoes, curry powder, and bottle gourd.\",\n                \"Simmer for 15-20 minutes, season with salt, and serve.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Curry\"\n        },\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 garlic cloves\",\n                \"1 teaspoon ginger\",\n                \"2 cups vegetable broth\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Sauté onion, garlic, and ginger in olive oil.\",\n                \"Add bottle gourd and vegetable broth.\",\n                \"Simmer for 15 minutes, blend until smooth, and season with salt and pepper.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Soup\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Wrong Prediction Image 1167",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c6f-3fdb-42e0-a8de-3c7298aed7c5"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:55:36 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1192"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 tomatoes\",\n                \"1 tablespoon curry powder\",\n                \"1 teaspoon cumin seeds\",\n                \"1 tablespoon olive oil\",\n                \"Salt to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Heat olive oil in a pan and sauté cumin seeds and chopped onion.\",\n                \"Add tomatoes, curry powder, and bottle gourd.\",\n                \"Simmer for 15-20 minutes, season with salt, and serve.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Curry\"\n        },\n        {\n            \"ingredients\": [\n                \"1 bottle gourd\",\n                \"1 onion\",\n                \"2 garlic cloves\",\n                \"1 teaspoon ginger\",\n                \"2 cups vegetable broth\",\n                \"Salt and pepper to taste\"\n            ],\n            \"instructions\": [\n                \"Peel and chop bottle gourd into cubes.\",\n                \"Sauté onion, garlic, and ginger in olive oil.\",\n                \"Add bottle gourd and vegetable broth.\",\n                \"Simmer for 15 minutes, blend until smooth, and season with salt and pepper.\"\n            ],\n            \"recipe_name\": \"Bottle Gourd Soup\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				},
+				{
+					"name": "Wrong Prediction Image 1183",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "input_image",
+									"type": "file",
+									"src": "postman-cloud:///1efb8c70-4f51-4cf0-be86-67027b9461e3"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/api/predict",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"api",
+								"predict"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Werkzeug/3.0.3 Python/3.12.1"
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 13 Dec 2024 06:55:47 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "919"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"data\": [\n        {\n            \"ingredients\": [\n                \"1 head of broccoli\",\n                \"Salt to taste\",\n                \"1 tablespoon olive oil\"\n            ],\n            \"instructions\": [\n                \"Cut broccoli into florets.\",\n                \"Steam the florets for 5-7 minutes until tender.\",\n                \"Toss with olive oil and season with salt.\"\n            ],\n            \"recipe_name\": \"Steamed Broccoli\"\n        },\n        {\n            \"ingredients\": [\n                \"1 head of broccoli\",\n                \"1 tablespoon soy sauce\",\n                \"1 tablespoon sesame oil\",\n                \"1 garlic clove\",\n                \"1 teaspoon ginger\"\n            ],\n            \"instructions\": [\n                \"Cut broccoli into florets.\",\n                \"Heat sesame oil in a pan and sauté garlic and ginger.\",\n                \"Add broccoli and stir-fry for 5-7 minutes.\",\n                \"Season with soy sauce and serve.\"\n            ],\n            \"recipe_name\": \"Broccoli Stir Fry\"\n        }\n    ],\n    \"message\": \"image predicted successfully\",\n    \"status\": \"success\"\n}"
+				}
+			]
+		}
+	]
+}
